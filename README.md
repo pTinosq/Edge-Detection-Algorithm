@@ -5,7 +5,7 @@ I decided that the best way for me to learn the algorithm was to make it myself 
 
 # Dependancy
 - Python 3.7+
-- [PIL (pillow) module](https://pillow.readthedocs.io/en/stable/) 
+- [PIL (pillow) module](https://pillow.readthedocs.io/en/stable/)
 
 # How it works
 - The user enters a threshold (e.g 55)
@@ -16,9 +16,8 @@ I decided that the best way for me to learn the algorithm was to make it myself 
 Run the .py and provide a path to the image <string>. The algorithm works by reading every single pixel in the image therefore I do not recommend using this algorithm on images with a large dimension.
 Example path: ../images/baguette.jpg
 
-Then the algorithm will ask you for your threshold <integer>.
-  
+Then the algorithm will ask you for your threshold `integer`.
+
 The algorithm will proceed to go line by line, row by row and run the algorithm mentioned in the **How it works** section.
 
 Once completed it will show the final image and then it will save it in the same directory as the .py file under the name __edge.jpg__
-
